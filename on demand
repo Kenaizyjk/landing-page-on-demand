@@ -109,30 +109,26 @@
     </div>
   </section>
 
-  <!-- PORTFÓLIO (Comerciais com IA) -->
+  <!-- PORTFÓLIO (Comerciais com IA via YouTube) -->
   <section id="portfolio" class="mx-auto max-w-6xl px-6 py-20">
     <h2 class="text-center text-4xl font-extrabold text-white">Comerciais com IA</h2>
     <p class="mx-auto mt-2 max-w-2xl text-center text-slate-400">Demonstrações de vídeos criados com inteligência artificial</p>
     <div class="mt-12 grid gap-8 md:grid-cols-2">
       <div class="flex flex-col items-center">
-        <video controls src="/mnt/data/Vídeo_Pronto_Loja_Apresentada.mp4" class="rounded-lg shadow-lg w-full max-w-xl"></video>
-        <p class="mt-2 text-slate-300">Vídeo: Loja Apresentada</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-_KcRCvAFqU?si=wqNSUi3bRHxvsgWo" title="Comercial Lavanderia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="rounded-lg shadow-lg w-full max-w-xl"></iframe>
+        <p class="mt-2 text-slate-300">Comercial da Lavanderia</p>
       </div>
       <div class="flex flex-col items-center">
-        <video controls src="/mnt/data/Vídeo_de_Hambúrguer_Pronto.mp4" class="rounded-lg shadow-lg w-full max-w-xl"></video>
-        <p class="mt-2 text-slate-300">Vídeo: Hambúrguer</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K3a4JKN5GoI?si=5WlcxoHL62mmZrpE" title="Comercial Hidratante" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="rounded-lg shadow-lg w-full max-w-xl"></iframe>
+        <p class="mt-2 text-slate-300">Comercial do Hidratante</p>
       </div>
       <div class="flex flex-col items-center">
-        <video controls src="/mnt/data/20250618_1340_Camera Glance Shift_simple_compose_01jy1ymc9cedd83bdsx9rds44y.mp4" class="rounded-lg shadow-lg w-full max-w-xl"></video>
-        <p class="mt-2 text-slate-300">Vídeo: Camera Glance Shift</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9auykwomDUg?si=RlP8cQxdJ-AhaXsx" title="Comercial Hamburgueria 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="rounded-lg shadow-lg w-full max-w-xl"></iframe>
+        <p class="mt-2 text-slate-300">Comercial da Hamburgueria</p>
       </div>
       <div class="flex flex-col items-center">
-        <video controls src="/mnt/data/Make_a_video_202506181530.mp4" class="rounded-lg shadow-lg w-full max-w-xl"></video>
-        <p class="mt-2 text-slate-300">Vídeo: Make a Video</p>
-      </div>
-      <div class="flex flex-col items-center">
-        <video controls src="/mnt/data/Character_58yearold_man_202506210654.mp4" class="rounded-lg shadow-lg w-full max-w-xl"></video>
-        <p class="mt-2 text-slate-300">Vídeo: Personagem 58 anos</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DAmiDUZpxh4?si=D6jhIF7x_jnm9TCq" title="Comercial Hamburgueria 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="rounded-lg shadow-lg w-full max-w-xl"></iframe>
+        <p class="mt-2 text-slate-300">Comercial do Hambúrguer</p>
       </div>
     </div>
   </section>
@@ -176,4 +172,5 @@
 
 </body>
 </html>
+
 
