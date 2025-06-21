@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>On Demand — Marketing Digital de Alta Performance</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+    body{font-family:'Poppins',sans-serif}
+    .glass{background:rgba(255,255,255,.05);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+  </style>
+</head>
+<body class="bg-[#0d1117] text-slate-100 antialiased scroll-smooth">
+  <!-- NAVBAR -->
+  <nav class="sticky top-0 z-40 backdrop-blur bg-[#0d1117]/70 border-b border-slate-800">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <a href="#top" class="text-2xl font-extrabold tracking-tight bg-gradient-to-r from-sky-400 to-purple-500 bg-clip-text text-transparent">On&nbsp;Demand</a>
+      <ul class="hidden gap-8 text-sm md:flex">
+        <li><a href="#beneficios" class="hover:text-sky-400">Benefícios</a></li>
+        <li><a href="#planos" class="hover:text-sky-400">Planos</a></li>
+        <li><a href="#contato" class="hover:text-sky-400">Contato</a></li>
+      </ul>
+      <a href="#contato" class="hidden rounded-full bg-gradient-to-r from-pink-500 to-sky-500 px-5 py-2 text-sm font-semibold md:inline-block">Começar</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="top" class="relative overflow-hidden bg-gradient-to-br from-purple-500/10 via-indigo-600/15 to-sky-500/15">
+    <div class="relative mx-auto flex min-h-[90vh] max-w-6xl flex-col items-center justify-center px-6 text-center">
+      <h1 class="text-4xl font-extrabold tracking-tight md:text-6xl lg:text-7xl">Marketing que <span class="bg-gradient-to-r from-pink-500 to-sky-500 bg-clip-text text-transparent">acelera</span> resultados</h1>
+      <p class="mt-6 max-w-2xl text-lg leading-relaxed text-slate-300 md:text-xl">Gestão de tráfego, conteúdo, IA e automação — entregues sob demanda.</p>
+      <div class="mt-10 flex flex-wrap justify-center gap-4">
+        <a href="#planos" class="rounded-full bg-white/90 px-8 py-4 text-lg font-semibold text-[#0d1117] shadow-lg hover:bg-white transition">Ver Planos</a>
+        <a href="#contato" class="rounded-full border border-white/60 px-8 py-4 text-lg font-semibold text-white hover:bg-white/10 transition">Começar</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- BENEFÍCIOS -->
+  <section id="beneficios" class="mx-auto max-w-6xl px-6 py-20">
+    <div class="grid gap-10 md:grid-cols-3 text-center">
+      <div class="glass rounded-3xl p-8 shadow-xl">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-10 w-10 text-pink-500" fill="currentColor" viewBox="0 0 24 24"><path d="M13 16h-1v-4h-1m0-4h.01M12 11a9 9 0 110 18 9 9 0 010-18z"/></svg>
+        <h3 class="mt-4 text-3xl font-semibold">+120% leads</h3>
+        <p class="mt-2 text-sm text-slate-400">crescimento médio em 6 meses</p>
+      </div>
+      <div class="glass rounded-3xl p-8 shadow-xl">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-10 w-10 text-purple-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3"/></svg>
+        <h3 class="mt-4 text-3xl font-semibold">30 dias</h3>
+        <p class="mt-2 text-sm text-slate-400">para a primeira campanha no ar</p>
+      </div>
+      <div class="glass rounded-3xl p-8 shadow-xl">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-10 w-10 text-sky-500" fill="currentColor" viewBox="0 0 24 24"><path d="M20 13V7a2 2 0 00-2-2h-6l-4 4v8a2 2 0 002 2h3"/></svg>
+        <h3 class="mt-4 text-3xl font-semibold">IA + humanos</h3>
+        <p class="mt-2 text-sm text-slate-400">estratégias escaláveis sob demanda</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANOS -->
+  <section id="planos" class="py-24 bg-slate-900/40 border-y border-slate-800">
+    <div class="mx-auto max-w-6xl px-6">
+      <h2 class="text-center text-4xl font-extrabold">Planos que se adaptam à sua fase</h2>
+      <p class="mx-auto mt-4 max-w-2xl text-center text-slate-400">Do básico ao domínio total do seu nicho.</p>
+
+      <div class="mt-16 grid gap-8 md:grid-cols-3">
+        <div class="glass rounded-3xl p-10 shadow-lg hover:shadow-2xl transition">
+          <h3 class="mb-4 flex items-center gap-2 text-xl font-bold text-green-400">🌱 Ponto de Partida</h3>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li>Gestão de redes sociais</li>
+            <li>Google Meu Negócio otimizado</li>
+            <li>Suporte estratégico</li>
+          </ul>
+        </div>
+
+        <div class="relative rounded-3xl border-2 border-sky-500 p-10 shadow-[0_0_50px_-10px_#0ea5e9]">
+          <span class="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-sky-500 px-4 py-1 text-xs font-bold uppercase tracking-wider text-slate-900">Favorito</span>
+          <h3 class="mb-4 flex items-center gap-2 text-xl font-bold text-sky-400">🎯 Conversão Inteligente</h3>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li>Tudo do Ponto de Partida</li>
+            <li>Gestão de tráfego (Meta + Google)</li>
+            <li>Landing pages de alta conversão</li>
+          </ul>
+        </div>
+
+        <div class="glass rounded-3xl p-10 shadow-lg hover:shadow-2xl transition">
+          <h3 class="mb-4 flex items-center gap-2 text-xl font-bold text-purple-400">🚀 Domínio Digital</h3>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li>Tudo do Conversão Inteligente</li>
+            <li>Edição de vídeos & IA commercials</li>
+            <li>Relatórios avançados + reuniões semanais</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="relative overflow-hidden bg-gradient-to-r from-purple-600 via-pink-500 to-sky-500 py-20">
+    <div class="relative mx-auto max-w-3xl px-6 text-center">
+      <h2 class="text-3xl font-bold text-white md:text-4xl">Pronto para dominar seu mercado?</h2>
+      <p class="mt-3 text-lg text-white/90">Agende uma consultoria gratuita e descubra como dobrar seus resultados em 90 dias.</p>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a href="#contato" class="rounded-full bg-white px-10 py-4 text-lg font-semibold text-purple-600 shadow-lg hover:bg-slate-100 transition">Contato</a>
+        <a href="https://wa.me/5531996966686" target="_blank" class="rounded-full bg-green-500 px-10 py-4 text-lg font-semibold text-white shadow-lg hover:opacity-90 transition">WhatsApp</a>
+      </div>
+    </♀♀♀♀
